@@ -20,6 +20,7 @@ your_phone_number = config['MY_PHONE']
 
 app = Flask(__name__)
 
+# empty comment
 
 def smsSender():
     client = Client(account_sid, auth_token)
